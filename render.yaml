@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rxguard-ai
+    env: python
+    buildCommand: "pip install -r requirements.txt && python prepare_data.py && python download_datasets.py && python train_model.py"
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
