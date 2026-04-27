@@ -1,4 +1,11 @@
-flask==3.0.3
+flask
+flask-cors
+pandas
+numpy
+scikit-learn
+matplotlib
+requests
+gunicornflask==3.0.3
 flask-cors==4.0.1
 pandas==2.2.2
 numpy==1.26.4
