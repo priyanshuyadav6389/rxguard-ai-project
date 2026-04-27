@@ -1,4 +1,29 @@
+# environments
+venv/
+.venv/
+
+# python
 __pycache__/
+*.pyc
+
+# mac
+.DS_Store
+
+# models
+*.pkl
+models/
+
+# datasets
+*.csv
+*.gz
+*.zip
+
+# data folders
+data/raw/
+data/master_interactions.csv
+
+# plots
+static/plots/__pycache__/
 *.pyc
 .env
 venv/
